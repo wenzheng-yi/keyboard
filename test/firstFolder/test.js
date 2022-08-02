@@ -1,6 +1,6 @@
-let a = 'Day'
+let a = { Day }
 let b = {
-  key: 'ctrl+t',
-  command: 'extension.vim_ctrl+t',
-  when: 'editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl',
+  KEY: 'CTRL+T',
+  COMMAND: 'EXTENSION.VIM_CTRL+T',
+  WHEN: 'EDITORTEXTFOCUS && VIM.ACTIVE && VIM.USE<C-T> && !INDEBUGREPL',
 }
